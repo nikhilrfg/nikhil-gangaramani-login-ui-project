@@ -10,7 +10,7 @@ body{
     justify-content: center; 
     align-items: center;
     
-    background-color: aqua;
+    background-color: lightskyblue;
     height: 100vh;
     width: 100vw;
 
@@ -24,13 +24,16 @@ body{
  
 .login-card {
     height: 250px;  
-    width: 250px;
+    width: 300px; 
 
     box-sizing: border-box;
     box-shadow: 6px 6px 15px 2px rgba(23,22,22,0.75);
     border-radius: 10px;
     padding: 20px;
     text-align: center;
+    background-color: #3a3a3a;
+
+    
    
 }
     
@@ -46,7 +49,7 @@ body{
   
   }
 
-  .si-button{
+  .login-card button{
     width: 100%;
     padding: 10px;
     box-sizing: border-box;
